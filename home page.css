@@ -1,0 +1,25 @@
+
+h1 {
+    color: white;
+    text-align: center;
+    background: linear-gradient(rgb(163, 83, 163), white);
+}
+button{
+    font-size: 60px;
+    margin-left: 20px;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(132, 0, 255);
+}
+h2{
+    font-size: 40px;
+}
+body{
+    background-color: rgb(229, 255, 0);
+}

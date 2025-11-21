@@ -9,7 +9,7 @@ const jk = {
 
 function d(){
     const b = document.querySelector(".b");
-    const gh = document.querySelector(".gh").value;
+    const gh = document.querySelector(".agh").value;
     const gk = jk[gh];
 
     b.innerHTML += `
@@ -23,3 +23,4 @@ function d(){
 function yes(btn){
     btn.parentElement.remove();
 }
+

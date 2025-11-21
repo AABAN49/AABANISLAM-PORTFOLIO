@@ -24,3 +24,4 @@ function yes(btn){
     btn.parentElement.remove();
 }
 
+

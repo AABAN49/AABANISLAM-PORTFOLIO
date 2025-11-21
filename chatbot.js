@@ -19,6 +19,7 @@ function d(){
         </div>
         `;
 }
+
 function yes(btn){
     btn.parentElement.remove();
 }

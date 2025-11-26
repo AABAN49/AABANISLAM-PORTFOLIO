@@ -5,6 +5,7 @@ h1 {
     background: linear-gradient(rgb(163, 83, 163), white);
 }
 .gh{
+    margin-top: 101px;
     font-size: 60px;
     margin-left: 20px;
     background-color: black;
@@ -59,4 +60,9 @@ body{
     margin-left: 1000px;
     margin-right: 100px;
 }
+button{font-size: 30px;}
+    margin-left: 1000px;
+    margin-right: 100px;
+}
+
 

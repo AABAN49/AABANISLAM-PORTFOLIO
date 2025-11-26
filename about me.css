@@ -4,7 +4,7 @@ h1 {
     text-align: center;
     background: linear-gradient(rgb(163, 83, 163), white);
 }
-button{
+.gh{
     font-size: 60px;
     margin-left: 20px;
     background-color: black;
@@ -12,6 +12,51 @@ button{
 a{
     text-decoration: none;
 }
-body{
-    background: linear-gradient(rgb(226, 216, 216),rgb(194, 178, 34));
+.all{
+    background-color: aqua;
+    border: 10px solid greenyellow;
 }
+.top{
+    padding-left: 415px;
+}
+.bottom{
+    padding-left: 415px;
+    padding-top: 240PX;
+    padding-bottom: 10px;
+}
+.left{
+    padding-left: 417px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.right{
+    padding-left: 915px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.kl{
+    font-size: 30PX;
+}
+body{
+    background-color: rgb(4, 0, 255);
+}
+.lol{
+    width: 80px;
+    height: auto;
+}
+.a{
+    background-color: antiquewhite;
+    height: auto;
+    margin-left: 200px;
+    width: 250px;
+    position: absolute;
+}
+.b{
+    background-color: antiquewhite;
+    height: auto;
+    margin-left: 1000px;
+    margin-right: 100px;
+}
+

@@ -18,56 +18,70 @@
 </head>
 <body>
     
-    <div class="all">
-        <div class="top">
-            <button class="lol">okh</button>
-            <button>100</button>
-            <button>100</button>
-            <button>100</button>
-            <button>100</button>
-            <button>100</button>
-            <button>100</button>
-            <button class="lol">okh</button>
+  <main class="app" role="main" aria-labelledby="app-title">
+    <header class="app-header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">TD</div>
+        <div class="title">
+          <h1 id="app-title">Todo — HTML &amp; CSS Skeleton</h1>
+          <p>Clean UI. Add your JavaScript to make it interactive.</p>
         </div>
-        <div class="left">
-            <button>1000</button>
-            <button>1000</button>
-            <button>1000</button>
-            <button>1000</button>
-            <button>1000</button>
-            <button>1000</button>
+      </div>
+
+      <div class="meta">
+        <span class="small" aria-hidden="true">Status: Ready for JS</span>
+      </div>
+    </header>
+
+    <!-- ---------- Form: user types todo here (JS will handle submit) ---------- -->
+    <form id="todo-form" class="card" action="#" aria-label="Add todo">
+      <input id="todo-input" name="todo" type="text" placeholder="Write a new task and press Add" aria-label="Todo text" autocomplete="off" required />
+      <button type="submit" id="add-btn" class="btn primary" aria-label="Add todo" onclick="writting_thing()">Add</button>
+      <button type="button" id="clear-btn" class="btn ghost" aria-label="Clear all">Clear all</button>
+    </form>
+
+    <!-- ---------- List container ---------- -->
+    <section class="card" aria-labelledby="list-heading" style="margin-top:14px">
+      <h2 id="list-heading" style="font-size:14px; margin:0 0 12px 0; color:var(--muted)">Tasks</h2>
+
+      <!-- note: JS will render <li> items into this ul -->
+      <ul id="todo-list" aria-live="polite">
+        <!-- Example item structure (commented out) -->
+        <!--
+        <li class="todo-item" data-id="1">
+          <div class="todo-checkbox" data-action="toggle" role="button" aria-pressed="false" tabindex="0">✓</div>
+          <div class="todo-text">Sample task</div>
+          <div class="todo-meta small">02 Jan • <button class="btn ghost" data-action="delete">Delete</button></div>
+        </li>
+        -->
+      </ul>
+
+      <div id="empty-state" class="empty" hidden>
+        No tasks yet — add your first task above.
+      </div>
+
+      <div class="toolbar" style="margin-top:12px">
+        <div class="filters" role="tablist" aria-label="Filter tasks">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter-btn" data-filter="active" role="tab" aria-selected="false">Active</button>
+          <button class="filter-btn" data-filter="completed" role="tab" aria-selected="false">Completed</button>
         </div>
-        <div class="right">
-            <button>1000</button>
-            <button>1000</button>
-            <button>1000</button>
-            <button>1000</button>
-            <button>1000</button>
-            <button>1000</button>
+
+        <div class="status-small" aria-live="polite">
+          <span id="items-left">0</span> items left
         </div>
-        <div class="bottom">
-            <button class="lol">okh</button>
-            <button>100</button>
-            <button>100</button>
-            <button>100</button>
-            <button>100</button>
-            <button>100</button>
-            <button>100</button>
-            <button class="lol">okh</button>
-        </div>
-    </div>
-    <div><p class="a">1000</p></div>
-    <div><p class="b">1000</p></div>
-    <div><p class="a">1000</p></div>
-    <div><p class="b">1000</p></div>
-    <button class="gh"><a href="https://aaban49.github.io/AABANISLAM-PORTFOLIO/">home</a></button>
-    <button class="gh"><a href="https://aaban49.github.io/AABANISLAM-PORTFOLIO/Monopoly-Game.html">Monopoly Game</a></button>
-    <button class="gh"><a href="https://aaban49.github.io/AABANISLAM-PORTFOLIO/my-skill.html">my skill</a></button>
-    <button class="gh"><a href="https://aaban49.github.io/AABANISLAM-PORTFOLIO/chatbot.html">chatbot</a></button>
+      </div>
+    </section>
+
+    <footer class="task" style="margin-top:14px; font-size:12px; color:var(--muted); text-align:center">
+      Tip: Hook your JS to these IDs — <code>todo-form</code>, <code>todo-input</code>, <code>add-btn</code>, <code>clear-btn</code>, <code>todo-list</code>, <code>empty-state</code>, and the filter buttons with <code>data-filter</code>.
+    </footer>
+  </main>
 
 </body>
 
 </html>
+
 
 
 

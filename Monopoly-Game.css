@@ -1,4 +1,13 @@
-
+.future{
+    position: absolute;
+}
+.gh{
+    margin-top: 101px;
+    font-size: 60px;
+    margin-left: 20px;
+    background-color: black;
+}
+.long{font-size: 30px;}
 /* ---------- Base & Utility ---------- */
     :root{
       --bg:#0f1724;        /* deep navy */
@@ -239,6 +248,7 @@
       .toolbar{ flex-direction:column; align-items:stretch; gap:8px }
       .filters{ justify-content:flex-start; overflow:auto }
     }
+
 
 
 

@@ -1,4 +1,5 @@
 .future{
+    margin-top: -600px;
     position: absolute;
 }
 .gh{
@@ -247,6 +248,7 @@
       .toolbar{ flex-direction:column; align-items:stretch; gap:8px }
       .filters{ justify-content:flex-start; overflow:auto }
     }
+
 
 
 

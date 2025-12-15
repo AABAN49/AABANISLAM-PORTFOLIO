@@ -1,4 +1,3 @@
-
 h1 {
     color: white;
     text-align: center;
@@ -10,10 +9,10 @@ h1 {
     background-color: black;
 }
 a{
-    text-decoration: none;
+    color: aqua;
 }
 .hg{
-    background-color: bisque;
+    background-color: rgb(255, 0, 191);
     font-size: 20px;
 }
 
@@ -22,27 +21,15 @@ input{
     font-size: 20px;
 }
 
-hg:hover{
-    background-color: rgb(255, 0, 0);
-}
-
-@keyframes bodyColor{
-    0%{ background-color: red;}
-    10%{ background-color: yellow;}
-    20%{ background-color: rgb(47, 0, 255);}
-    30%{background-color: rgb(234, 0, 255);}
-    40%{background-color: rgb(192, 117, 88);}
-    50%{background-color: aqua;}
-    60%{background-color: rgb(0, 255, 21);}
-    70%{background-color: black;}
-    80%{background-color: green;}
-    100%{background-color: rgb(255, 0, 0);}
+.gh:hover{
+    background-color: antiquewhite;
+    
 }
 
 body {
     height: auto;
     margin: 0;
-    animation: bodyColor 4s infinite;
+    background-color: rgb(36, 32, 32);
 }
 
 h1 {
@@ -78,3 +65,12 @@ h1 {
 .kl{
     margin-left: 10px;
 }
+.gh{
+    box-shadow: 10px 10px 100px rgb(5, 255, 5);
+}
+
+
+.kl{
+    margin-left: 10px;
+}
+

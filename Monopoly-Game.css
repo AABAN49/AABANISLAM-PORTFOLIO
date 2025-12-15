@@ -27,6 +27,12 @@ h1{
 a{
     color: rgb(226, 10, 10);
 }
+button:hover{
+    background-color: rgb(245, 224, 224);
+}
+button{
+    box-shadow: 10px 10px 50px rgb(43, 255, 0);
+}
 
 
 

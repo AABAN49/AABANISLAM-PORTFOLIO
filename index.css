@@ -1,0 +1,173 @@
+
+
+*{
+    margin: 0;
+}
+:root{
+    --which_language_i_know_width: 25%;
+    --which_language_i_know_height: 150px;
+    --which_language_i_know_background_color: rgb(31, 31, 31);
+    --which_language_i_know_color: aqua;
+    --which_language_i_know_border_radius: 20px;
+    --which_language_i_know_position: relative;
+    --which_language_i_know_margin_left: 5%;
+}
+body{
+    background-color: black;
+}
+.image_and_intro_writting{
+    display: flex;
+}
+.intro_writting_thing{
+    color: white;
+    margin-top: 7%;
+    margin-left: 30%;
+}
+.writting_thing_secound{
+    margin-left: 2%;
+    font-size: 70px;
+}
+.intro_image{
+    width: 30%;
+    height: 30%;
+    margin-top: 1%;
+}
+.p{
+    font-size: 8vh;
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 12%;
+}
+.which_language_i_know_first_row{
+    display: flex;
+    animation: aa 1s;
+}
+@keyframes aa{
+    from{opacity: 0;
+    transform: translateY(150px);}
+    to{opacity: 1;}
+}
+.which_language_i_know_first_topic{
+    width: var(--which_language_i_know_width);
+    height: var(--which_language_i_know_height);
+    background-color: var(--which_language_i_know_background_color);
+    color: var(--which_language_i_know_color);
+    border-radius: var(--which_language_i_know_border_radius);
+    position: var(--which_language_i_know_position);
+    margin-left: var(--which_language_i_know_margin_left);
+}
+.which_language_i_know_secound_topic{
+    width: var(--which_language_i_know_width);
+    height: var(--which_language_i_know_height);
+    background-color: var(--which_language_i_know_background_color);
+    color: var(--which_language_i_know_color);
+    border-radius: var(--which_language_i_know_border_radius);
+    position: var(--which_language_i_know_position);
+    margin-left: var(--which_language_i_know_margin_left);
+}
+.which_language_i_know_third_topic{
+    width: var(--which_language_i_know_width);
+    height: var(--which_language_i_know_height);
+    background-color: var(--which_language_i_know_background_color);
+    color: var(--which_language_i_know_color);
+    border-radius: var(--which_language_i_know_border_radius);
+    position: var(--which_language_i_know_position);
+    margin-left: var(--which_language_i_know_margin_left);
+}
+.p_special_in_which_language_i_know_third_topic{
+    font-size: 50px;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 12%;
+}
+.which_language_i_know_secound_row{
+    margin-top: 5%;
+    display: none;
+    animation: aa 1s;
+}
+.which_language_i_know_third_row{
+    display: none;
+    margin-top: 5%;
+    animation: aa 1s;
+}
+.which_language_i_know_intro{
+    color: rgb(21, 255, 0);
+    font-size: 6vh;
+    margin-left: 5%;
+}
+.p_in_which_language_i_know_secound_row{
+    font-size: 6vh;
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 12%;
+}
+.about_me_headline{
+    color: rgb(9, 255, 0);
+    font-size: 50px;
+    margin-left: 5%;
+}
+.about_me_main_writting_thing{
+    margin-top: 1%;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    font-size: 25px;
+}
+.all_project_first_row{
+    display: flex;
+}
+.all_project_what_i_do_before{
+    color: rgb(9, 255, 0);
+    font-size: 8vh;
+    margin-left: 2.4%;
+}
+.B{
+    color: rgb(52, 51, 87);
+    font-size: 20px;
+    margin-left: 25%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+h1{
+    margin-top: 5%;
+    color: rgb(255, 0, 0);
+    font-size: 100PX;
+    margin-left: 300PX;
+}
+.img_myself{
+    width: 300px;
+    height: 300px; 
+    margin-left: 400px;
+}
+.my_frontend_work_showing_tittle{
+    color: rgb(40, 255, 226);
+    font-size: 40px;
+    margin-left: 100px;
+}
+.first_image_my_work{
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    background-color: rgb(59, 59, 59);
+}
+.first_link_my_work{
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    background-color: rgb(10, 10, 10);
+    margin-right: 50px;
+}
+.first_link_my_work:hover{
+    transform: scale(1.02);
+}
+.my_project_tittle{
+    color: rgb(23, 209, 241);
+    text-decoration: none;
+}
+.full_all_project{
+    display: flex;
+}
+.backend_marcy_place{
+    font-size: 20px;
+    color: white;
+    margin-left: 200px;
+}

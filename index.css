@@ -38,7 +38,6 @@ body{
     margin-top: 12%;
 }
 .which_language_i_know_first_row{
-    display: flex;
     animation: aa 1s;
 }
 @keyframes aa{
@@ -86,13 +85,9 @@ body{
     margin-top: 12%;
 }
 .which_language_i_know_secound_row{
-    margin-top: 5%;
-    display: none;
     animation: aa 1s;
 }
 .which_language_i_know_third_row{
-    display: none;
-    margin-top: 5%;
     animation: aa 1s;
 }
 .which_language_i_know_intro{
